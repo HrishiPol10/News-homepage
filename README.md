@@ -25,8 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: (https://your-solution-url.com](https://hrishipol10.github.io/News-homepage/)
+- Live Site URL: (https://your-live-site-url.com](https://hrishipol10.github.io/News-homepage/)
 
 ## My process
 
@@ -40,6 +40,5 @@ Users should be able to:
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
+- Name (Hrishikesh Pol)
+- Frontend Mentor - [@HrishiPol10](https://www.frontendmentor.io/profile/HrishiPol10)
