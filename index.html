@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | News homepage</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"
+    integrity="sha512-aVKKRRi/Q/YV+4mjoKBsE4x3H+BkegoM/em46NNlCqNTmUYADjBbeNefNxYV7giUp0VxICtqdrbqU7iVaeZNXA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" defer></script>
+  <script src="index.js" defer></script>
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution {
+      font-size: 11px;
+      text-align: center;
+    }
+
+    .attribution a {
+      color: hsl(228, 45%, 44%);
+    }
+  </style>
+</head>
+
+<body>
+  <section class="container">
+    <header>
+      <div class="header-logo">
+        <img src="/assets/images/logo.svg" alt="">
+      </div>
+      <nav>
+        <ul>Home</ul>
+        <ul>New</ul>
+        <ul>Popular</ul>
+        <ul>Trending</ul>
+        <ul>Categories</ul>
+      </nav>
+      <div class="mob-menu-icon">
+        <img src="/assets/images/icon-menu.svg" alt="">
+      </div>
+      <div class="mob-nav" style="height: var(--windowHeight);">
+        <div style="position: absolute;left: -100%;right: 0;top: 0;background-color: hsl(240deg 100% 5% / 35%);width: 100%;height: var(--windowHeight);"></div>
+        <img src="/assets/images/icon-menu-close.svg" alt="">
+
+      </div>
+    </header>
+
+    <section class="ATF-section">
+      <section class="ATF-section-left">
+        <div class="ATF-img-section">
+          <img src="/assets/images/image-web-3-desktop.jpg" alt="">
+        </div>
+        <div class="mob-ATF-img-section">
+          <img src="/assets/images/image-web-3-mobile.jpg" alt="">
+        </div>
+        <div class="heading-section">
+          <h1>The Bright Future of Web 3.0?</h1>
+        </div>
+
+        <div class="CTA-section">
+          <p>
+            We dive into the next evolution of the web that claims to put the power of the platforms back into the hands
+            of
+            the people.
+            But is it really fulfilling its promise?
+          </p>
+          <button> Read more</button>
+        </div>
+      </section>
+
+      <aside>
+        <div class="aside-title">
+          <h1>New</h1>
+        </div>
+
+        <div class="aside-text-section">
+          <div class="aside-text-item">
+            <h3>Hydrogen VS Electric Cars</h3>
+            <p> Will hydrogen-fueled cars ever catch up to EVs?</p>
+          </div>
+          <hr>
+          <div class="aside-text-item">
+            <h3>The Downsides of AI Artistry</h3>
+            <p>
+              What are the possible adverse effects of on-demand AI image generation?</p>
+          </div>
+          <hr>
+          <div class="aside-text-item">
+            <h3>Is VC Funding Drying Up?</h3>
+            <p>
+              Private funding by VC firms is down 50% YOY. We take a look at what that means.</p>
+          </div>
+
+        </div>
+      </aside>
+
+    </section>
+
+
+    <section class="bottom-section">
+      <div class="bottom-section-item">
+        <div class="bottom-img">
+          <img src="assets/images/image-retro-pcs.jpg" alt="">
+
+        </div>
+        <div class="bottom-description">
+          <h1> 01</h1>
+          <h3> Reviving Retro PCs</h3>
+          <p> What happens when old PCs are given modern upgrades?</p>
+        </div>
+      </div>
+      <div class="bottom-section-item">
+        <div class="bottom-img">
+          <img src="assets/images/image-top-laptops.jpg" alt="">
+        </div>
+        <div class="bottom-description">
+          <h1>02</h1>
+          <h3> Top 10 Laptops of 2022</h3>
+          <p> Our best picks for various needs and budgets.</p>
+        </div>
+      </div>
+      <div class="bottom-section-item">
+        <div class="bottom-img">
+          <img src="assets/images/image-gaming-growth.jpg" alt="">
+        </div>
+        <div class="bottom-description">
+          <h1>03</h1>
+          <h3> The Growth of Gaming</h3>
+          <p> How the pandemic has sparked fresh opportunities.</p>
+        </div>
+      </div>
+    </section>
+
+
+
+    <div class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+      Coded by <a href="#">Hrishikesh</a>.
+    </div>
+  </section>
+</body>
+
+</html>
