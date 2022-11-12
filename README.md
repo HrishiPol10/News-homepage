@@ -25,9 +25,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: (https://your-solution-url.com](https://hrishipol10.github.io/News-homepage/)
-- Live Site URL: (https://your-live-site-url.com](https://hrishipol10.github.io/News-homepage/)
-
+- Solution URL: [Add solution URL here](https://hrishipol10.github.io/News-homepage/)
+- Live Site URL: [Add live site URL here](https://hrishipol10.github.io/News-homepage/)
 ## My process
 
 ### Built with
